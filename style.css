@@ -1,4 +1,6 @@
-/* Fonts */
+/*-------------
+     Fonts 
+--------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 /* Common styles and utilities */
@@ -39,6 +41,13 @@ header{
     text-decoration: none;
     margin-right: 20px;
     color: #FFFFFF;
+    padding: 5px 10px;
+}
+
+.navigation a:hover{
+    background-color: #FFFFFF;
+    color: black;
+    border-radius: 5px;
 }
 
 
@@ -140,10 +149,6 @@ header{
     line-height: 60px;
 }
 
-.match img{
-    width: 567px;
-    height: 427px;
-}
 
 
 /* Footer styles */
@@ -211,7 +216,7 @@ footer{
     }
 
 
-    .match img{
+    .match iframe{
         width: 328px;
         height: 248px;
         padding-top: 30px;
@@ -262,7 +267,7 @@ footer{
     }
 
 
-    .match img{
+    .match iframe{
         width: 328px;
         height: 248px;
         padding-top: 30px;
