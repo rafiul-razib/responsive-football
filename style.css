@@ -83,7 +83,7 @@ header{
 
 
 .banner:hover .main-btn{
-    width: 400px;
+    width: 300px;
     transform: rotate(360deg);
 }
 
@@ -210,6 +210,11 @@ footer{
         line-height: 50px;
     }
 
+    .text{
+        width: 278px;
+        height: 138px;
+    }
+
     .banner img{
         width: 329px;
         height: 259.17px;
@@ -259,6 +264,12 @@ footer{
     .banner h1{
         font-size: 36px;
         line-height: 50px;
+        margin-top: 0px;
+    }
+
+    .text{
+        width: 278px;
+        height: 138px;
     }
 
     .banner img{
